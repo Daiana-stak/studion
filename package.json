@@ -4,6 +4,7 @@
   "description": "estudo /",
   "main": "src/index.html",
   "scripts": {
+    "start": "npx live-server scr/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
