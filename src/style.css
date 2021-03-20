@@ -85,6 +85,7 @@ padding-left: 0;
   line-height: 1.0ch; /* relativa ao tamanho da altura do glifo 0 da fonte */
   text-transform: uppercase;
   text-align: right; 
+ 
 }
 
 .logo-studion_subtitle {
@@ -255,6 +256,32 @@ padding-left: 0;
   background: unset;
 }
 
+.footer {
+  background-color: #000;
+  color: #fff;
+  pad: 0 1rem;
+}
+.footer__container {
+display: grid;
+grid-template-columns: repeat(3, auto);
+align-items: center;
+}
+
+.footer .logo-studion {
+  justify-self: start;
+}
+
+.logo-studion {
+  display: block;
+}
+
+.footer__form {
+  justify-self: center;
+}
+
+.footer__social {
+  justify-self: end;
+}
 
 
 
