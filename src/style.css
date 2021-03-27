@@ -228,8 +228,9 @@ padding-left: 0;
     background-color: #fff;
     padding: 5.200rem 4.100rem;
   }
+
   .quote__copy h6 {
-    font-size: 00.9375rem;
+    font-size: 0.9375rem;
     font-weight: 400;
     letter-spacing: 0.1875rem;
     line-height: 1.4375rem;
@@ -238,7 +239,7 @@ padding-left: 0;
     margin: 0;
   }
 
-  .quote__copy h2 {
+  .quote__copy h1 {
    font-size: 5rem;
    line-height: 5rem;
    text-transform: uppercase;
@@ -246,7 +247,7 @@ padding-left: 0;
    margin: 1.875rem 0;
 }
 
-.quote__copy h2 span {
+.quote__copy h1 span {
   display: block;
 }
 
@@ -259,16 +260,18 @@ padding-left: 0;
 .footer {
   background-color: #000;
   color: #fff;
-  pad: 0 1rem;
 }
+
 .footer__container {
 display: grid;
 grid-template-columns: repeat(3, auto);
 align-items: center;
+padding: 5.25rem 0 3.75rem 0;
 }
 
 .footer .logo-studion {
   justify-self: start;
+  margin: 0;
 }
 
 .logo-studion {
@@ -276,12 +279,83 @@ align-items: center;
 }
 
 .footer__form {
-  justify-self: center;
+  display: grid;
+  place-items: center;
+  grid-template-columns: 10ch auto;
+  gap: 1.25rem;
 }
 
+.footer__form label {
+font-size: 0.875rem;
+font-weight: 300;
+text-align: center;
+}
+
+.footer__email {
+display: grid;
+grid-template-columns: auto 3.375rem;  
+width: 100%;
+}
+
+.footer__form input {
+  background-color: var(--color-primary);
+  border: unset;
+  padding: 1rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000;
+}
+
+.footer__form imput::placeholder {
+  color: #000;
+}
+
+.footer__form imput:focus {
+  outline-color: #fff;
+}
+
+.footer__form button {
+  cursor: pointer;
+  border: unset;
+  height: 100%;
+  transition: 0.3s all ease;
+}
+
+.footer__form button:hover {
+color: #fff;
+background-color: var(--color-copy);
+}
+  
 .footer__social {
   justify-self: end;
 }
+
+.footer__social a,
+.footer__social a:visited,
+.footer__social a:active {
+  color: #fff;
+  margin-left: 0.6rem;
+}
+
+.footer hr {
+border-color: #fff4;
+margin: 0;
+}
+
+.footer p {
+  text-align: center;
+  font-size: 0.875rem;
+  font-weight: 300;
+  margin: 1rem 0;
+}
+
+
+
+
+
+
+
 
 
 
