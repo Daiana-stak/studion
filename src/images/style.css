@@ -69,6 +69,7 @@ padding-left: 0;
   text-transform: uppercase; 
   }
 
+
 .navbar_links {
   font-weight: 500;
   color: #ffc500; 
@@ -79,6 +80,10 @@ padding-left: 0;
   font-weight: 300;
   color: #fff;
   text-decoration: none;
+}
+
+.navbar_links a.active {
+  color: var(--color-primary);
 }
 
 .navbar_links a:hover {
