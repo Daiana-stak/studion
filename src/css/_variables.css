@@ -1,0 +1,6 @@
+:root {
+  --color-copy: #000;
+  --color-primary: #ffc500;
+  --default-padding: 1rem;
+  color: var(--color-copy);
+}
