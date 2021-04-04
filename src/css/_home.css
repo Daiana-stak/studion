@@ -5,7 +5,7 @@
 
 .slider {
   position: relative;
-  height: calc(100vh - 7.75rem);
+  height: 90vh;
 }
 
 .slider__background-image {

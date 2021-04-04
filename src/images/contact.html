@@ -3,7 +3,7 @@
   <head>
     <meta charset "UTF-8">
     <meta name "viewport" content "width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
     <title>Studion</title>
   </head> 
 
@@ -58,7 +58,7 @@
       <img src="./contact.jpg" alt=""class="hero__backgorund">
       <div class="container hero__container">
         <div class="hero__copy">
-          <h2>.contact</h2>
+          <h2>.contato</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt delectus esse quos impedit, vel, molestias cupiditate aliquid reiciendis ipsam minus beatae? Quis atque corrupti debitis nisi id possimus incidunt earum.
           </p>
@@ -70,25 +70,26 @@
 
     <main>
     <section class="contact">
-
       <section class="contact__info">
-        <h3>Liga pra gente</h3>
-        <span>
-         <i class="fas fa-phone fa-flip-horizontal"></i>
-         +55 48 3223 - 5769
-         <i class="fab fa-whatsapp"></i>
-         +55 48 99943 - 7777
-        </span>
-        <h3>Venha conhecer nossa casa</h3>
-        <span>
-          <i class="fas fa-map-marker-alt"></i>
-          Rua Miguel Daux, 129 - Coqueiros Florianópolis / SC
-        </span>
+<div class="contact__info__container">
+  <h3>Liga pra gente</h3>
+  <span>
+   <i class="fas fa-phone fa-flip-horizontal"></i>
+     +55 48 3223 - 5769
+   <i class="fab fa-whatsapp"></i>
+   +55 48 99943 - 7777
+  </span>
+  <h3>Venha conhecer nossa casa</h3>
+  <span>
+    <i class="fas fa-map-marker-alt"></i>
+    Rua Miguel Daux, 129 - Coqueiros Florianópolis / SC
+  </span>
+</div>
       </section>
 
 <section class="contact__form">
-  <h3>Deixe sua mensangem</h3>
-  <form action>
+  <form class="contact__form__container" action>
+    <h3>Deixe sua mensangem</h3>
     <label for="name">Seu nome</label>
     <input id=name type="text" />
     <label for="email">Seu email</label>
@@ -102,7 +103,13 @@
 </section>
 
 <section class="maps">
-
+<div class="maps__mapouter">
+  <div class="maps__gmap_canvas"><iframe width="600" height="500" id="gmap_canvas"
+      src="https://maps.google.com/maps?q=Rua%20Miguel%20Daux,%20129%20-%20Coqueiros%20Florian%C3%B3polis%20/%20SC&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+      href="https://fmovies2.org">fmovies</a><br>
+  </div>
+</div>
 </section>
     </main>
 

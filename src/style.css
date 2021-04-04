@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Roboto:wght@400,700&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/solid.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css");
@@ -7,8 +7,10 @@
 @import "./css/_base.css";
 @import "./css/_utils.css";
 @import "./css/_btn.css";
-@import "./css/_navbar.css";
-@import "./css/_footer.css";
 
-@import "./css/_home.css";
-@import "./css/_contacts.css";
+@import "./css/_navbar.css"; /*componetes*/
+@import "./css/_hero.css"; /*componentes*/
+@import "./css/_footer.css"; /*componetes*/
+
+@import "./css/_home.css"; /*paginas*/
+@import "./css/_contacts.css"; /*paginas*/
