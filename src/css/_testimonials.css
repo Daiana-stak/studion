@@ -1,0 +1,15 @@
+.testimonials {
+  display: grid;
+}
+
+.testimonials h6 {
+  font-size: 1.39rem;
+  letter-spacing: 0.1875rem;
+  line-height: 1.125rem;
+}
+
+.testimonials h2 {
+  margin: 0;
+  margin-bottom: 1.875rem;
+  font-size: 1.5625rem;
+}

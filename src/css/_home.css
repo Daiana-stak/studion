@@ -29,9 +29,9 @@
 }
 
 .slide__copy h2 {
-  font-size: 6.25rem;
+  font-size: 5.5rem;
   text-transform: uppercase;
-  line-height: 6.25rem;
+  line-height: 5rem;
 }
 .slide__copy h2 span {
   display: block;
@@ -93,19 +93,19 @@
   line-height: 1.6875rem;
 }
 
+.quote__container {
+  display: grid;
+  align-items: center;
+  justify-items: end;
+  min-height: 80vh;
+}
+
 .quote {
   background-image: url(../images/parallax.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
-
-.quote__container {
-  display: grid;
-  align-items: center;
-  justify-items: end;
-  min-height: 80vh;
 }
 
 .quote__copy {
