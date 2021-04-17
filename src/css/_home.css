@@ -67,6 +67,10 @@
   padding: 4.375rem;
 }
 
+.institutional__copy .gallery {
+  grid-template-columns: auto;
+}
+
 .institutional__copy {
   padding: 0 1.875rem;
 }
@@ -89,7 +93,7 @@
 }
 
 .institutional p {
-  font-size: 1.0625rem;
+  font-size: 1rem;
   line-height: 1.6875rem;
 }
 
