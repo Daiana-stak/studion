@@ -22,14 +22,13 @@
 }
 
 .navbar_links li {
-  display: inline-block;
   font-size: 0.875rem;
   margin-right: 3rem;
   text-transform: uppercase;
 }
 
 .navbar_links {
-  font-weight: 500;
+  font-weight: 400;
   color: #ffc500;
   text-decoration: none;
   float: right;

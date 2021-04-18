@@ -67,10 +67,6 @@
   padding: 4.375rem;
 }
 
-.institutional__copy .gallery {
-  grid-template-columns: auto;
-}
-
 .institutional__copy {
   padding: 0 1.875rem;
 }
@@ -93,15 +89,11 @@
 }
 
 .institutional p {
-  font-size: 1rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.0625rem;
   line-height: 1.6875rem;
-}
-
-.quote__container {
-  display: grid;
-  align-items: center;
-  justify-items: end;
-  min-height: 80vh;
+  margin-bottom: 0;
+  margin-bottom: 2.5rem;
 }
 
 .quote {
@@ -110,6 +102,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.quote__container {
+  display: grid;
+  align-items: center;
+  justify-items: end;
+  min-height: 80vh;
 }
 
 .quote__copy {
