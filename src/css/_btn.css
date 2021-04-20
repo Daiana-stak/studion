@@ -15,7 +15,11 @@
 .btn:active,
 .btn:focus,
 .btn--institutional,
-.btn--contact {
+.btn--contact,
+.btn--events,
+.btn--enterprise,
+.btn--gallery,
+.btn--testimonials {
   border-color: var(--color-primary);
   background-color: var(--color-primary);
   color: #fff;
