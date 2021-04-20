@@ -61,10 +61,10 @@
 
 .institutional {
   display: grid;
-  grid-template-columns: auto auto;
-  gap: 3.125rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
   align-items: center;
-  padding: 4.375rem;
+  /* padding: 4rem;*/
 }
 
 .institutional__copy {
