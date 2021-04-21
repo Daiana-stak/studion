@@ -11,7 +11,7 @@
   display: grid;
   grid-template-columns: 1fr 9fr;
   align-items: center;
-
+align-items: center;
   width: 100vw;
   height: 7.75rem;
   padding: 0 1rem;
