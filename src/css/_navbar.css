@@ -7,7 +7,7 @@
   color: #fff;
 }
 
-.navbar__conteiner {
+.navbar__container {
   display: grid;
   grid-template-columns: 1fr 9fr;
   align-items: center;
@@ -17,24 +17,25 @@
   padding: 0 1rem;
 }
 
-.navbar_links {
+.navbar__links {
   justify-self: end;
 }
 
-.navbar_links li {
+.navbar__links li {
   font-size: 0.875rem;
   margin-right: 3rem;
   text-transform: uppercase;
+  /* text-align: -webkit-match-parent;*/
 }
 
-.navbar_links {
+.navbar__links {
   font-weight: 400;
   color: #ffc500;
   text-decoration: none;
   float: right;
 }
 
-.navbar_links a {
+.navbar__links a {
   font-weight: 300;
   color: #fff;
   text-decoration: none;

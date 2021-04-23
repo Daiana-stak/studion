@@ -2,6 +2,12 @@
   display: grid;
 }
 
+a{
+  color: white;
+  text-decoration: none;
+}
+
+
 .testimonials h6 {
   font-size: 2rem;
   letter-spacing: 0.1875rem;

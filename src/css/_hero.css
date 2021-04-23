@@ -19,9 +19,11 @@
 }
 
 .slide__copy h6 {
-  font-size: 0.9375rem;
+  font-size: 0.67rem;
+  font-weight: bold;
+  /*font-size: 0.9375rem;
   font-weight: 400;
-  line-height: 6.25rem;
+  line-height: 6.25rem;*/
 }
 
 .hero__copy h2 {
