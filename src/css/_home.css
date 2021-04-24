@@ -61,10 +61,10 @@
 
 .institutional {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 1rem;
   align-items: center;
-  /* padding: 4rem;*/
+  padding: 4rem;
 }
 
 .institutional__copy {
@@ -80,7 +80,7 @@
 }
 
 .institutional__image {
-  max-width: 550px;
+  max-width: 300px;
 }
 
 .institutional__copy h4 {

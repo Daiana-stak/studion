@@ -2,11 +2,10 @@
   display: grid;
 }
 
-a{
+a {
   color: white;
   text-decoration: none;
 }
-
 
 .testimonials h6 {
   font-size: 2rem;
