@@ -10,10 +10,10 @@
 
 @import "./css/_navbar.css"; /*componetes*/
 @import "./css/_hero.css"; /*componentes*/
-@import "./css/_footer.css"; /* componetes */
+@import "./css/_footer.css"; /*componetes*/
 
 @import "./css/_home.css"; /*paginas*/
-@import "./css/_contacts.css"; /*paginas */
-@import "./css/_testimonials.css"; /*paginas */
-@import "./css/_gallery.css"; /*pagina */
-@import "./css/_enterprise.css"; /*pagina*/
+@import "./css/_contacts.css"; /*paginas*/
+@import "./css/_testimonials.css"; /*paginas*/
+@import "./css/_gallery.css"; /*pagina*/
+@import "./css/_enterprise.css";
