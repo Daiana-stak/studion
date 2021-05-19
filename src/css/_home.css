@@ -1,6 +1,17 @@
 .slider {
-  background-color: #000;
+  margin-top: 50px;
+  position: relative;
+  padding:0;
+  display:flex;
+  width: 100%;
   color: #fff;
+  height: calc(100% - 9rem ) !important;
+  background-color: #000;
+
+}
+.slide{
+  width: 100vw;
+  height: 90vh;
 }
 
 .slider__prev-arrow,
@@ -27,11 +38,6 @@
 .slider__prev-arrow::before,
 .slider__next-arrow::before {
   content: "";
-}
-
-.slider {
-  position: relative;
-  height: 90vh;
 }
 
 .slider__background-image {
@@ -62,7 +68,9 @@
 .slide__copy h2 span {
   display: block;
 }
-
+.slide__copy__container{
+  margin-top: -90px;
+}
 .counter {
   background-color: var(--color-primary);
   color: #fff;

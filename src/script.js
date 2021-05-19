@@ -1,15 +1,25 @@
-$(document).ready(() => {
- const slickOptions = {
-     autoplay: true,
-     dots: false, 
+//$(document).ready(() => {
+ //const slickOptions = {
+    // autoplay: true,
+     //dots: false, 
      //pauseOnHover: false,
-     prevArrow:
-    '<button type="button" class="slick-prev slider__prev-arrow">Previous</button>;',
-     nextArrow:
-    '<button type="button"     class="slick-next       slider__next-arrow">Previous</button>;',
-  };
+     //prevArrow:
+    //'<button type="button" class="slick-prev slider__prev-arrow">Previous</button>;',
+    // nextArrow:
+  //  '<button type="button" class="slick-next  slider__next-arrow">Next</button>;',
+//  };
 
-$('.slider').slick(slickOptions);
+//$('.slider').slick(slickOptions);
+
+$('.slider').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+   fade: true,
+  cssEase: 'linear',
+  arrows:true,
+  autoplay: true,
+  autoplaySpeed: 8000,
+})
 
 $('.footer__form-button').on('click', () => {
 const Email = $('#email').val();
@@ -31,4 +41,3 @@ Email.send({
    (message) => alert(message)
   );
  });
-});

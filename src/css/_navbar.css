@@ -1,19 +1,22 @@
 .navbar {
   position: absolute;
-  z-index: 1;
+  z-index: 999;
   top: 0;
   left: 0;
   width: 100%;
   color: #fff;
+  background: #000;
+  
 }
 
 .navbar__container {
   display: grid;
   grid-template-columns: 1fr 9fr;
+  grid-template-rows:7rem;
   align-items: center;
-align-items: center;
+  align-items: center;
   width: 100vw;
-  height: 7.75rem;
+
   padding: 0 1rem;
 }
 
